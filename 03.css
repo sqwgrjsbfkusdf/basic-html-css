@@ -1,0 +1,36 @@
+body {
+    /* background-color: aquamarine; */
+    background-image: url("BB2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    color: azure;
+    font-size: 50px;
+    text-align: center;
+    background-color: pink;
+    /* padding: 50px 0; */
+}
+
+.name {
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.contents {
+    font-size: 20px;
+    line-height: 3;
+    text-align: center;
+}
+
+.contents p {
+    color: white;
+    margin: 40px 0;
+    padding: 20px 0;
+    
+}
