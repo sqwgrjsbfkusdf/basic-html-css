@@ -61,12 +61,25 @@ font-size: 20px;
 
 .hero .contents {
     width: 1200px;
-    margin: 0 auto;
+    margin: 50px 0;
     display: flex;
+    gap: 150px;
+    
+}
+
+.hero .contents .texts {
+color: red;
+
+}
+
+.hero .contents .photo {
+    width: 570px;
+
 }
 
 .hero .contents .photo img {
     width: 570px;
+    margin-left: 120px;
 }
 
 .hero .contents .texts h3 {
@@ -77,12 +90,14 @@ font-size: 20px;
 .hero .contents .texts h2 {
     font-size: 60px;
     color: #444;
+
 }
 .hero .contents .texts p {
     font-size: 20px;
     line-height: 1.8;
     margin-top: 16px;
     margin-bottom: 24px;
+
 }
 
 .hero .contents .texts button {

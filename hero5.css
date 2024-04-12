@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero .contents .texts h1 {
+    font-size: 50px;
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.list li {
+    display: inline;
+    margin-right: 100px;
+    margin-top: 50px;
+}
