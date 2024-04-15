@@ -4,9 +4,10 @@
     margin-bottom: 100px;
 }
 
-.photo .thumb li {
-    display: flex;
-    text-align: center;
-    margin-right: 50px;
+.photo .thumb li img {
     width: 570px;
+    height: 400px;
+    text-align: flex;
+    border-radius: 20px;
+
 }
