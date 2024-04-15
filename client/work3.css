@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #666;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.nav {
+    width: 1200px;
+    height: 72px;
+    /* 블록요소를 중앙정렬*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav .logo_wrap h1 {
+
+font-size: 20px;
+}
+
+.hero {
+    margin: 150px 0;
+}
+
+.hero .contents {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hero .contents .photo img {
+    width: 570px;
+}
+
+.hero .contents .texts h3 {
+    font-size: 24px;
+    color: #444;
+    font-weight: normal;
+}
+.hero .contents .texts h2 {
+    font-size: 60px;
+    color: #444;
+}
+.hero .contents .texts p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.hero .contents .texts button {
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid #666
+}
