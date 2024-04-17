@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 360px;
+    border-collapse: collapse;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cal {
+    font-size: 12px;
+    color: #333;
+    border-top: 2px solid #999;
+}
+
+.cal th, .cal td {
+    border: 1px solid #eee;
+    padding: 12px;
+}
+
+.cal th {
+    background-color: #ddffa2;
+    color: #111;
+}
+
+.cal td {
+    text-align: right;
+    cursor: pointer;
+}
+
+.cal td:hover {
+    background-color: #eee;
+}
+
+.cal th:last-child, .cal td:last-child {
+    color: blue;
+}
+
+.cal th:first-child, .cal td:first-child {
+    color: red;
+}
+
+.cal td.today {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}

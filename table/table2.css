@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.tbl_04 td, .tbl_04_th {
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+.tbl_05 td, .tbl_05_th {
+    border: 1px solid #666;
+    padding: 10px;
+}
